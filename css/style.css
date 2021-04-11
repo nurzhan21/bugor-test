@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/Roboto/Roboto-Regular.eot");
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/Roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url("../fonts/Roboto/Roboto-Light.eot");
+  src: local("Roboto Light"), local("Roboto-Light"), url("../fonts/Roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Light.woff") format("woff"), url("../fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto-Regular';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+input:focus, button:focus, img:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 40px;
+  text-align: center;
+  background-color: #40d1f7;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.header {
+  padding: 100px 0;
+  background: url("../img/header/header-bg.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.line {
+  display: block;
+  margin-top: 10px;
+  height: 10px;
+  width: 250px;
+  background: url("../img/header/line.png") center no-repeat;
+}
+
+.main {
+  margin-top: -50px;
+}
+
+.main-item {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-item__title {
+  padding: 20px 30px;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px 20px 0 0;
+}
+
+.main-item__text {
+  margin: 0;
+  padding: 25px 15px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.main-item__button {
+  font-family: 'Roboto-Regular';
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */
